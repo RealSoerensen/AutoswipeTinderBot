@@ -8,6 +8,14 @@ Install it with this command:
 ```
 pip install selenium
 ```
+Also you will need the Chrome webdriver which can be installed here:
+```
+https://chromedriver.chromium.org/downloads
+```
+Make sure that the driver is in this folder:
+```
+"C:\Program Files (x86)"
+```
 
 [USAGE]
 
