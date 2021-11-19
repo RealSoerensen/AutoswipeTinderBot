@@ -46,9 +46,9 @@ class TinderBot:
         self.driver.find_element(By.XPATH, "/html/body/div[2]/div[2]/div/div/div/div/div[3]/button[2]").click()
 
         email_in = self.driver.find_element(By.ID, "email")
-        email_in.send_keys("patricklykke@live.dk")
+        email_in.send_keys("INSERT EMAIL-ADDRESS FOR FACEBOOK")
         pw_in = self.driver.find_element(By.ID, "pass")
-        pw_in.send_keys("PVt88ztf")
+        pw_in.send_keys("INSERT PASSWORD FOR FACEBOOK")
 
         self.driver.find_element(By.ID, "loginbutton").click()
 
